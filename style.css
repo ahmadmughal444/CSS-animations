@@ -1,0 +1,17 @@
+
+.btn-animate {
+    width: 300px;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    margin: 2px 0px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right, #00a7d4 50%, #00a7d4b0 50%);
+    background-size: 200% 100% !important;
+    background-position: right bottom !important;
+    transition: all .5s ease-out !important;
+}
+    .btn-animate:hover {
+        background-position: left bottom !important;
+    }
